@@ -1,0 +1,97 @@
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.header{
+  
+  margin-top: 14.7vh;
+  text-align:center;
+}
+
+.mid-container{
+  background-color: rgb(244, 246, 248);
+  height: 85.2vh;
+  position: relative;
+}
+
+.middle-section{
+  text-align: center;
+  padding-left: 2%;
+}
+
+.middle-section > input{
+  width: 60%;
+  padding: 1.2em;
+  border-radius: 20px;
+  border:none;
+}
+
+
+.img1{
+  text-align: center;
+  margin: 40% 0;
+}
+.firstImg{
+  margin-top: 30%;
+}
+
+div>i, .img1{
+  color: rgb(130, 138, 145);
+  font-size: 0.9rem;
+}
+div>h2>i{
+  margin-right: 8px;
+}
+
+div>i:hover{
+  color:rgb(185, 185, 185);
+}
+
+input::placeholder{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.upload-box{
+  height: 180px;
+  width: 180px;
+  position: relative;
+  background-color: #fff;
+  left: 20vw;
+  display: flex;
+  align-items: center;
+}
+.upload-box>p{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+}
+
+.sidenav {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
+-webkit-box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
+-moz-box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
+}
+
+
+.brand{
+  height: 100%;
+  width: 110px;
+}
+
+.vids{
+  text-align: center;
+  padding: 4.5% 0 3% 1%;
+  color: rgb(152, 166, 173);
+  text-align: left;
+  margin-left: 10vw;
+}
