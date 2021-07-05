@@ -6,7 +6,6 @@ body{
 }
 
 .header{
-  
   margin-top: 14.7vh;
   text-align:center;
 }
@@ -27,6 +26,21 @@ body{
   padding: 1.2em;
   border-radius: 20px;
   border:none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+
+}
+.sidenav {
+  height: 100%;
+
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
+  -moz-box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
 }
 
 
@@ -71,19 +85,9 @@ input::placeholder{
   font-weight: 900;
 }
 
-.sidenav {
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  background-color: #fff;
-  box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
--webkit-box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
--moz-box-shadow: 13px 1px 30px -4px rgba(0,0,0,0.17);
-}
-
 
 .brand{
+  width: 100%;
   height: 100%;
   width: 110px;
 }
@@ -94,4 +98,34 @@ input::placeholder{
   color: rgb(152, 166, 173);
   text-align: left;
   margin-left: 10vw;
+}
+
+@media (max-width:700px) {
+  body{
+    text-align: center;
+  }
+
+  .sidenav{
+    width:20%;
+  }
+  .brand{
+    width: 100%;
+  }
+
+  .firstImg{
+    margin-top: 10%;
+  }
+
+  .upload-box{
+    text-align: center;
+  }
+
+  .vids{
+    padding-top: 5vh;
+  }
+
+  .mid-container{
+    padding-left: 21%;
+  }
+
 }
