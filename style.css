@@ -108,10 +108,16 @@ input::placeholder{
   .sidenav{
     width:20%;
   }
-  .brand{
-    width: 100%;
+
+  .header{
+    margin-top: 20%;
   }
 
+  .header, .brand{
+    height: 100%;
+    width: 100%;
+
+  }
   .firstImg{
     margin-top: 10%;
   }
@@ -121,7 +127,8 @@ input::placeholder{
   }
 
   .vids{
-    padding-top: 5vh;
+    margin-top: 0;
+    padding-top: 6vh;
   }
 
   .mid-container{
