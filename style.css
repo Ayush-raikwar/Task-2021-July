@@ -5,6 +5,10 @@ body{
   font-weight: 700;
 }
 
+hr{
+  visibility: hidden;
+}
+
 .header{
   margin-top: 14.7vh;
   text-align:center;
@@ -105,6 +109,10 @@ input::placeholder{
     text-align: center;
   }
 
+  hr{
+    visibility: visible;
+  }
+
 .sidenav{
     width:100%;
     position: static;
@@ -119,21 +127,24 @@ input::placeholder{
   }
   .middle-section > input{
     border: 1px solid rgb(152, 166, 173);
-
+    font-weight: 600;
   }
 
   input::placeholder{
     text-align: center;
+    font-weight: 600;
   }
 
   .upload-box{
     position: static;
-    width: 30%;
+    width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     border: 1px rgb(152, 166, 173) solid;
     border-radius: 20px;
+    font-weight: 600;
+
   }
 
   .vids{
